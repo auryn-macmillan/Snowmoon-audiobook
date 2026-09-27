@@ -1,0 +1,12 @@
+UPSTREAM LICENSE / DECLARATIONS (verbatim from https://vitalik.eth.limo/snowmoon/)
+
+(fetched 2026-09-27)
+
+
+== License: ==
+  Snowmoon is released under the GPL v3
+  Yes, I said GPL v3, not CC-BY-SA. My legal theory, which Kimi K3 says is plausible, is that you are free to go turn it into a movie or a vibe-coded anime or whatever, but if you do that, you are required to open-source the pipeline (AI prompts, scripts, task-specific harness, etc) and other non-commodity materials that you used to make it so that other people can build on top of your work.
+
+== AI usage declaration: ==
+  All words were written directly by me.
+  Spelling, grammar and style checking, verifying consistency of the rules of Minpentai and Dzegoban, the HTML and CSS format and style, and the SVGs were done with assistance from Kimi K3 and Qwen 3.8 Flash Next.

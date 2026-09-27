@@ -1,0 +1,8 @@
+# regenerable intermediates (pipeline output, not source of truth)
+tts/
+!audio/
+src/chapters/*.bak
+*.tmp
+*.list
+*.part_A
+*.part_B
