@@ -43,9 +43,12 @@ step-by-step reconstruction.
 - *Spelling, grammar and style checking, verifying consistency of the rules of Minpentai
   and Dzegoban, the HTML and CSS format and style, and the SVGs were done with assistance
   from Kimi K3 and Qwen 3.8 Flash Next.* *(i.e. the raw text was human-authored.)*
-- The *audiobook rendering* was done by **Kokoro** (MIT-licensed, not included; link in
-  [`PIPELINE.md`](PIPELINE.md)) using Hermes Agent tooling. No LLM was used to alter,
-  summarize, or re-write any text.
+- The *audiobook* was produced end to end by **Hermes Agent**, driven by
+  **Qwen3.8-27B-exl3-5bpw** served on ExLlama's **Tabby API**. No LLM altered,
+  summarised, or re-wrote a single word of the source text: the
+  agent extracted the prose, drove the `jm_kumo` TTS endpoint, and packaged the
+  result per the pipeline documented in `PIPELINE.md`. (Kokoro is MIT-licensed
+  and is the decoder that actually produces the waveform.)
 
 ### Cross-licensing note (GPL-3.0 vs source text style)
 
